@@ -6,7 +6,12 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Calculator calculator = new Calculator();
+
+            Console.WriteLine(calculator.Add(54, 29));
+            Console.WriteLine(calculator.Subtract(54, 29));
+            Console.WriteLine(calculator.Multiply(2, 1.5));
+            Console.WriteLine(calculator.Divide(3, 1.5));
         }
     }
 }
